@@ -18,7 +18,7 @@ export const data = [
     desc: "simply recipes is a website that I created, to add to my experience in learning React js of course, I got a lot of additional knowledge from making this website. ",
     use: ["React.js", "Rapid.API", "Material UI", "React router"],
     img: recipe,
-    url: "https://react-chocktail.netlify.app",
+    url: "https://prima-recipes.netlify.app/",
   },
   {
     id: 2,
