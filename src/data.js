@@ -3,7 +3,7 @@ import LocalBarIcon from "@mui/icons-material/LocalBar";
 import RoomIcon from "@mui/icons-material/Room";
 import CoronavirusIcon from "@mui/icons-material/Coronavirus";
 import recipe from "./image/recipe.png";
-import travel from "./image/travel.png";
+import comfy from "./image/comfy.png";
 import covid from "./image/covid.png";
 import cocktail from "./image/cocktail.png";
 
@@ -41,15 +41,15 @@ export const data = [
   },
   {
     id: 3,
-    title: "Travel Advisor",
-    text: "Made Travel Adivsor using Google map, Rapid API",
+    title: "E commerce comfy",
+    text: "Made e commerce comfy shop using react js,and react hooks",
     icon: <RoomIcon color="secondary" style={{ padding: "1rem", fontSize: "5rem" }} />,
     color: "secondary",
     bgcolor: "#000",
-    desc: "Travel Advisor is a website that I created, to add to my experience in learning React js of course, I got a lot of additional knowledge from making this website. ",
-    use: ["React.js", "Rapid.API", "Google maps", "Material UI"],
-    img: travel,
-    url: "https://prima-travel.netlify.app",
+    desc: "Comfy shop is a website that I created, to add to my experience in learning React js of course, I got a lot of additional knowledge from making this website. when you click 'add in cart' that will be added in your cart. ",
+    use: ["React.js", "React hooks",],
+    img: comfy,
+    url: "https://rjscomfy.netlify.app/",
   },
   {
     id: 4,
