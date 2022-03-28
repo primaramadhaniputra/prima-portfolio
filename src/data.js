@@ -12,7 +12,7 @@ export const data = [
     id: 1,
     title: "Website Recipes",
     text: "Made website SimpleRecipes using Rapid API",
-    icon: <FastfoodIcon style={{ backgroundColor: "#006064", padding: "1rem", color: "#b2ebf2", fontSize: "5rem" }} />,
+    icon: <FastfoodIcon style={{ backgroundColor: "#006064", color: "#b2ebf2", height: '100%', width: '100%' }} />,
     color: "#eee",
     bgcolor: "#000",
     desc: "simply recipes is a website that I created, to add to my experience in learning React js of course, I got a lot of additional knowledge from making this website. ",
@@ -31,6 +31,7 @@ export const data = [
           color: "#e6ee9c",
           padding: "1rem",
           fontSize: "5rem",
+          height: '100%', width: '100%'
         }}
       />
     ),
@@ -43,7 +44,7 @@ export const data = [
     id: 3,
     title: "E commerce comfy",
     text: "Made e commerce comfy shop using react js,and react hooks",
-    icon: <RoomIcon color="secondary" style={{ padding: "1rem", fontSize: "5rem" }} />,
+    icon: <RoomIcon color="secondary" style={{ padding: "1rem", fontSize: "5rem", height: '100%', width: '100%' }} />,
     color: "secondary",
     bgcolor: "#000",
     desc: "Comfy shop is a website that I created, to add to my experience in learning React js of course, I got a lot of additional knowledge from making this website. when you click 'add in cart' that will be added in your cart. ",
@@ -55,7 +56,7 @@ export const data = [
     id: 4,
     title: "Corona tracker",
     text: "Made corona tracker using chart,API",
-    icon: <CoronavirusIcon color="error" style={{ padding: "1rem", fontSize: "5rem" }} />,
+    icon: <CoronavirusIcon color="error" style={{ padding: "1rem", fontSize: "5rem", height: '100%', width: '100%' }} />,
     color: "error",
     bgcolor: "#000",
     desc: "Corona tracker is a website that I created, to add to my experience in learning React js of course, I got a lot of additional knowledge from making this website. ",

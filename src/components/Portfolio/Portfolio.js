@@ -28,10 +28,13 @@ function Portfolio() {
         const { text, title, icon, id } = item;
         return (
           <Box display="flex" justifyContent="center" marginBottom={15}>
-            <Card elevation={6} style={{ maxWidth: "70%", width: "100%" }}>
+            <Card elevation={2} style={{ maxWidth: "70%", width: "100%" }}>
               <Grid container spacing={3}>
                 <Grid item md={4} xs={12}>
-                  <CardContent align="center">{icon}</CardContent>
+                  <CardContent align="center" style={{ height: '100%', padding: 0 }}>
+
+                    {icon}
+                  </CardContent>
                 </Grid>
                 <Grid item md={8} xs={12}>
                   <CardContent style={{ height: "100%", display: "flex", flexDirection: "column", justifyContent: "center" }}>
@@ -53,7 +56,7 @@ function Portfolio() {
           </Box>
         );
       })}
-    </Container>
+    </Container >
   );
 }
 

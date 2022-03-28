@@ -24,7 +24,7 @@ function Header() {
         <Typography letterSpacing={1} gutterBottom variant={variant1} align="center">
           Prima Ramadhani Putra{" "}
         </Typography>
-        <Typography variant={variant2} align="center">
+        <Typography style={{ backgroundColor: 'white', color: 'black', maxWidth: '700px', margin: 'auto', borderRadius: '5px' }} variant={variant2} align="center">
           is JAVASCRIPT programmer
         </Typography>
       </Grid>
